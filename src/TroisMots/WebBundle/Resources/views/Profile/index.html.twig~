@@ -1,0 +1,10 @@
+{% extends 'TroisMotsWebBundle::layout.html.twig' %}
+
+{% block title %}Trois Mots - Profile de {{ user->username }}{% endblock %}
+
+{% block content_header '' %}
+
+{% block content %}
+    <h1>Profile de  {{ user->username }}</h1>
+
+{% endblock %}
